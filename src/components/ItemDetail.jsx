@@ -5,7 +5,8 @@ const ItemDetail = () => {
     const{id} = useParams()
   return (
     <div>
-        Desciption for Item {id}
+        <h1>Item {id}</h1>
+        Description for Item {id}
     </div>
   )
 }
